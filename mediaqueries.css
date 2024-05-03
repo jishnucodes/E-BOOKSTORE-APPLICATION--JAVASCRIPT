@@ -1,0 +1,7 @@
+@media (max-width: 992px) {
+    header .collapse .navbar-nav .nav-item {
+        border-bottom: 1px solid #d07e7e; 
+        width: 100%;
+        text-align: center;
+    }
+}

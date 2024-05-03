@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-font: "Poppins", sans-serif;
+    --lg-font: "Lato", sans-serif;
+    --sm-font: "Open Sans", sans-serif;
+    --lg-size: 25px;
+    --sm-size: 20px;
+    --navFont-size: 15px;
+}
+
+
+h1, .h1 {
+    font-size: 3.5rem;
+}
+
+h2, .h2 {
+    font-size: 3rem;
+}
+
+h3, .h3 {
+    font-size: 2.5rem;
+}
+
+h4, .h4 {
+    font-size: 2rem;
+}
+
+h5, .h5 {
+    font-size: 1.5rem;
+}
+h6, .h6 {
+    font-size: 1rem;
+}
+section .card .card-img-overlay header {
+    background: transparent;
+    height: 30px;
+    color: white;
+}
+
+header  a {
+    color: white;
+    font-size: var(--navFont-size);
+    font-family: var(--nav-font);
+    font-weight: 600;
+}
+
+header .navbar-brand {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: var(--navFont-size);
+
+}
+
+header .cart-icon {
+    font-size: var(--navFont-size);
+}
+
+header .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    
+}
+
+#mySlideImg1 {
+    height: 500px;
+}
+#mySlideImg2 {
+    height: 500px;
+}
+#mySlideImg3 {
+    height: 500px;
+}
+
+#main-content1 {
+    margin-bottom: 12%;
+    
+}
+
+#main-content1 p {
+    font-family: var(--sm-font);
+    font-size: var(--lg-size);
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#main-content2 {
+    margin-bottom: 12%;   
+}
+
+#main-content2 p {
+    font-family: var(--sm-font);
+    font-size: var(--lg-size);
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-wrap: wrap;
+}
+
+#main-content3 {
+    margin-bottom: 9%;  
+}
+#main-content3 p {
+    font-family: var(--sm-font);
+    font-size: var(--lg-size);
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-wrap: wrap;
+
+}
+
+
+#toggleButton {
+    background-color: white;
+    color: black;
+    object-fit: cover;
+    font-size: 20px;
+}
+
+.searchBooks {
+    height: 150px;
+    padding: 2.5rem;
+}
+
+.searchBooks .searchInputGroup input {
+    border-radius: 0.5rem;
+    padding: 0.25rem 2.5rem;
+
+}
+.searchBooks .container .text-center button {
+    padding: 0.25rem 2rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+}
+
+.searchBooks .container .text-center .searchIcon {
+    top: 20px;
+    left: 13px;
+}
+
+.collectionList {
+    padding: 1.5rem;
+}
+
+.collection-header {
+    margin-top: 25px;
+    color: gray;
+    font-family: var(--lg-font);
+    font-weight: 700;
+}
+
+.products {
+    border: 1px solid rgb(226, 215, 215);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem 1rem; 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+     
+}
+
+.products:hover {
+    scale: 1.075;
+    background-color: rgba(231, 252, 252, 0.951);
+}
+
+.product-header {
+    width: 224px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.products img {
+    width: 100%;
+    max-height: 100px;
+}
+
+.products .text-center {
+    width: 100%;
+}
+
+.products .text-center .h6 {
+    width: 100%;
+    height: 10px;
+}
+
+.products button {
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.45rem;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-family: var(--sm-font);
+}
+
+.blogList {
+    padding: 2.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.blogList h3 {
+    color: gray;
+    font-family: var(--lg-font);
+    font-weight: 700;
+}
+
+.blogList .blog {
+    width: 100%;
+    border: 1px solid rgb(226, 215, 215);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.blogList .blog img {
+    width: 100%;
+    height: 260px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blogList .blog h4 {
+    font-family: var(--lg-font);
+    font-weight: 400;
+}
+
+.blogList .blog p {
+    font-family: var(--sm-font);
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-wrap: wrap;
+    font-size: 16px;
+}
+
+.blogList .blog .arrowSymbol {
+    color: rgb(60, 142, 170);
+}
+
+.blogList .blog .arrowSymbol:hover {
+    border-bottom: 3px solid rgb(60, 142, 170);
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.footer {
+    padding: 2rem;
+    background-color: black;
+    color: gray;
+}
+
+.footer h5 {
+    font-family: var(--lg-font);
+    color: rgba(128, 128, 128, 0.773);
+}
+
+.footer p {
+    font-family: var(--sm-font);
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.footer a {
+    font-family: var(--sm-font);
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 7px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
+    transition: 0.5s ease-in;
+
+}
+
+.footer .socialMediaLinks .fb-icon {
+    font-size: 20px;
+}
+
+.footer .socialMediaLinks .insta-icon {
+    font-size: 20px;
+}
+
+.footer .socialMediaLinks .telegram-icon {
+    font-size: 20px;
+}
+
+.footer .socialMediaLinks .twitter-icon {
+    font-size: 20px;
+}
+
+/* //bookstore styling */
+
+#bookstores {
+    
+    background-color: green;
+}
+#bookstores a {
+    color: white;
+}
+
+.row-1 {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.row-1::-webkit-scrollbar {
+    display: none;
+}
+
+#action-header1 {
+    font-family: var(--lg-font);
+    font-weight: 600;
+    color: rgb(73, 63, 63);
+    font-size: 1.75rem;
+}
+#action-header1:hover {
+    color: blueviolet;
+    transition: 0.5s ease;
+
+}
+
+
+
+
+
+
+
